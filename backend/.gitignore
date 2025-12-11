@@ -1,0 +1,14 @@
+# Never commit real environment / secrets — use .env.example instead.
+.env
+.env.local
+.env.*.local
+
+# Dependencies + build output.
+node_modules/
+dist/
+coverage/
+
+# Test artefacts (mongodb-memory-server downloads a mongod binary here).
+.cache/
+*.log
+tsconfig.tsbuildinfo
