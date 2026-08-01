@@ -117,7 +117,7 @@ npm run seed          # seed products, categories and demo users
 npm run create-admin  # provision an admin account
 ```
 
-The product images are sourced from a Kaggle fashion dataset via `npm run`-adjacent script `src/scripts/import_kaggle_dataset.py` — the downloaded images are stored locally in `frontend/public/dataset-images/` and are regenerated on demand.
+The product images are sourced from a Kaggle fashion dataset; the downloaded images are stored locally in `frontend/public/dataset-images/` and are regenerated on demand.
 
 ## Testing
 
